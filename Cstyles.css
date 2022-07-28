@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+body
+{
+    margin:0;
+    padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+    background:linear-gradient(to right, #ffcc00 0%, #cc00cc 100%)/* #40E0D0*/;
+    height: 100%;
+}
+.navbar-header img
+{
+    margin-top:-70px;
+    width:200px;
+    height: 100px;
+    transition: .8s all ease-in;
+}
+.navbar
+{
+    margin-top:100px;
+    background-color:black;
+    border-bottom:none;
+}
+.navbar-header button
+{
+    background-color: #fff;
+}
+.navbar-header .icon-bar
+{
+    background-color:#000;
+    width:30px;
+}
+.nav-link
+{
+    font-family:"Lucida handwriting";    
+    font-size: 12px;
+    font-style: italic;
+    font-weight:700;
+    transition: .8s all ease;
+    color:#fff;
+}
+.dropdown .dropdown-menu
+{
+    background-color: #000;
+}
+.dropdown-menu .drop
+{
+    color:#fff;
+    font-family:"Lucida handwriting";    
+    font-size: 12px;
+    font-style: italic;
+    font-weight:700;
+    transition: .8s all ease;
+}
+.nav-item:hover .nav-link
+{
+    color:navy;
+    background-color: darkturquoise;
+    border-radius: 20px;
+}
+.nav-item .btn
+{
+    font-family:"Lucida handwriting";    
+    font-size: 15px;
+    font-style: italic;
+    font-weight:700;
+    margin-left: 10px;
+}
+.nav-item:hover .btn
+{
+    color:darkblue;
+}
+#form1
+{
+    width: 100%;
+    color:#000;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight:600;
+    border-radius:20px 0px 0px 20px;
+}
+.mainheading
+{
+    margin-top:-20px;
+    background-image: url(./images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height:50px;
+   padding:50px;
+   border-bottom:1px solid rgb(63, 173, 105);
+}
+.mainheading button
+{
+    margin-top:-55px;
+    margin-left:100%;
+    border-radius: 0px 20px 20px 0px;
+}
+.mainheading p
+{
+    font-family: 'Pacifico';     
+    font-size: 50px;     
+    font-style: normal;
+    font-variant: normal; 
+    line-height: 26.4px;
+    color:#444;
+    text-align:center ;
+    padding:20px 0 20px 0;
+}
+.tags {
+    list-style: none;
+    margin:40px 0px 40px 0px;
+  }
+  
+  .tag {
+    background: #800080/*48D1CC #ddd*/;
+    color: #FFFFFF/*666*/;
+    text-decoration: none;
+    padding:10px 50px 10px 30px;
+    text-shadow: inset 0 1px #555;
+    position: relative;
+    font-family: "Lucida Handwriting";
+    font-size:20px;
+    font-style:italic;
+  }
+  .tag::before {
+    background: Gold;
+    border-radius: 10px;
+    box-shadow: inset 0 1px #555;
+    content: '';
+    width: 7px;
+    height: 7px;
+    left: 10px;
+    position: absolute;
+    top: 17px;
+  }
+  .tag::after {
+    background: Orange;
+    border-bottom: 45px solid transparent;
+    border-left: 25px solid #800080/*48D1CC ddd*/;
+    border-top: 20px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .tag:hover
+  {
+      text-decoration: none;
+      color:#000;
+      background-color: aqua;
+      font-family:"Lucida Handwriting";
+      font-weight: bold;
+  }
+  .tag:hover::after {
+    border-left-color: aqua; 
+ }
+ .row
+ {
+     margin-top: 20px;
+ }
+ .card
+ {
+     width:100%;
+     height:auto;
+     box-shadow: 0px 0px 20px 0px rgba(163, 42, 219, 0.795);
+     border-radius:20px 30px 0px 0px;
+ }
+ .inner
+{
+    position: relative;
+    width: 100%;
+}  
+.inner img
+ {
+     width: 100%;
+     height:280px;
+     border-radius:20px 30px 0px 0px;
+     
+ }
+ .overlay
+ {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .8s ease;
+    background-color: #B0C4DE;
+    border-radius:20px 30px 0 0;
+    font-family:cursive;
+    font-size:40px;
+    font-style: italic;
+    font-weight: bold;
+    padding:70px 40px 70px 40px;
+ }
+ .inner:hover .overlay
+ {
+     opacity:0.90;    
+ }
+ .card-body 
+ {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 4px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .card-body i
+  {
+      font-size:20px;
+      padding:15px;
+  }
+  
+  .card-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 3rem;
+    width: 100%;
+    background: #1f8dd6;
+    border: none;
+    outline: none;
+    color: #000;
+    cursor: pointer;
+    margin-top:-50px;
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size:20px;
+    font-style: italic;
+    font-weight:bold;
+  }
+  
+  .card-title.active {
+    background-color: #1070b1;
+    color:#fff;
+  }
+  .card-body.active i {
+    transform: rotateY(180deg);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card-text {
+    padding: 0rem 1rem;
+    background-color: #f3f3f3;
+    color:#000;
+    width:100%;
+    max-height:0;
+    font-family: cursive;
+    font-size:18px;
+    font-style: italic;
+    font-weight:bold;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card-text.active {
+    max-height: 500px;
+    padding: 1rem;
+  }
+  .card-text p
+  {
+    padding:10px 40px 10px 40px;
+  }
+  .card-text a
+  {
+    font-family:cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color:#fff;
+    padding:10px 40px 10px 40px; 
+  }
+  .foo
+  {
+      margin-top:20px;
+      padding:40px;
+      background-color: #000;
+      color: #f3f3f3;
+      font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+      font-size:20px;
+      font-style: italic;
+      font-weight:bold;
+      text-align: center;
+  }
+ 
