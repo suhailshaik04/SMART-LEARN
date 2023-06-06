@@ -4,7 +4,8 @@ An online learning platform for students where one can find the collection of be
 
 The Project Demo:
 
-[SmaertLearnDemo.webm](https://user-images.githubusercontent.com/98518088/181499830-448694b4-49d5-45e6-91a8-b71892175591.webm)
+[SmartLearnDemo.webm](https://github.com/suhailshaik04/SMART-LEARN/assets/98518088/5409211a-a1d5-4be4-89e8-c6ba17edff2d)
+
 
 The system is a learning site  made for students to give them a clearer idea on what to study and how to study. 
 Main objective of the system is to avail a good and comfortable E-learning experience to the students. The system 
